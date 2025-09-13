@@ -48,6 +48,6 @@ In this case I increased the amount of `worker connections`, which led to a poor
 
 ![ab-post](images/ab-post.png)
 ![post-usage-nginx](images/post-usage-nginx.png)
-![post-usage-nginx](images/post-usage-server.png)
+![post-usage-nginx](images/post-usage-system.png)
 
 These config options require testing because they are hardware dependant, which leads to having different configurations based on the resources available and also the amount of traffic expected to that specific server.
