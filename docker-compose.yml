@@ -1,0 +1,10 @@
+services:
+  nginx-amplify:
+    image: nginx-amplify
+    ports:
+      - "8080:80"
+    environment:
+      API_KEY: eabd21bc19dd08ccbf416e91d890e051
+      AMPLIFY_IMAGENAME: my-nginx-amplify-service
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
